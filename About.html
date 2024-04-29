@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>The Movement</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+      <link rel="icon" href="images/favicon.png" type="image" sizes="16x16">
+      <link rel="stylesheet" href="assets/css/fonts/fonts.css">
+      <link rel="stylesheet" href="assets/css/owl.carousel.css">
+      <link rel="stylesheet" href="assets/css/main.css"/>
+      <link rel="stylesheet" href="assets/css/responsive.css" />
+   </head>
+   <body>
+
+
+<!--Main Navigation Start-->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top mainnav">
+      
+  <a class="navbar-brand" href="#"><img class="mainlogo" src="images/flogo.png" ></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+           <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#"><h4 class="text-secondary">Our Cause<h4></a>
+          <a class="dropdown-item" href="About.html"><h4 class="text-secondary">Our Team<h4></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="donations.html">Donations</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="events.html">Events</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="news.html">News & Updates</a>
+      </li>
+    </ul>
+
+   <a data-toggle="modal" data-target="#Donateform"><button class="donatebtnh" >Donate &nbsp <img src="images/27.png" alt="" class="img-fluid"> &nbsp  &nbsp</a><img src="images/vl.png" class="img-fluid"><a data-toggle="modal" data-target="#VolunteerForm">&nbsp &nbsp &nbsp Lend a Hand &nbsp<img src="images/28.png" alt="" class="img-fluid"></button></a>&nbsp &nbsp &nbsp &nbsp
+   <a href=""><button id="reporth">Report Incident &nbsp <img src="images/33.png" alt="" class="img-fluid"> &nbsp</button></a>
+  </div>
+
+</nav>
+
+<!--Main Navigation-->
+
+    
+      <!--Page Header Section-->
+      <div class="container-fluid PageHeaderSection">
+        <div class="row marginlr PageHeaderSectionrow1">
+         <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+          <div class="col-xs-12 col-sm-12 col-md-11 col-lg-11 text-left">
+            <h2 class="ptblack50w">About Us</h2>
+            <p class="ptregular20w">HOME/ABOUT US</p>
+
+            <!--Donate PopUp Start-->
+  <div class="modal fade" id="Donateform" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-size" >
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Donate Form</h4>
+        </div>
+        <div class="modal-body">
+          <!--Modal content-->
+
+
+             <h3 class="ptblack50b" >Please fill out the form below <br>to donate to out cause.</h3>
+             <form class="text-center border border-light " action="#!">
+                  <div class="row">
+                      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                          
+                          <div class="input-group">
+  <input type="text" class="form-control border border-secondary p-4 round" aria-label="Dollar amount (with dot and two decimal places)" placeholder="Donate">
+  <div class="input-group-append">
+    <span class="input-group-text bg-dark text-white">5 $</span>
+  </div>
+</div>
+                        </div>
+                     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6 tex-left">
+                        
+
+                        <input type="text" id="formGroupExampleInput" class="form-control form1" placeholder="Name">
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6 ">
+                        <input type="text" id="validationCustom05" class="form-control form1" placeholder="Phone">
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <input type="email" class="form-control formr1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6 tex-left">
+                        <select class="form-control form1" id="exampleFormControlSelect1">
+                           <option selected>A</option>
+                           <option value="1">B</option>
+                           <option>C</option>
+                           <option>D</option>
+                           <option>E</option>
+                        </select>
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6 ">
+                        <input type="text" class="form-control form1" id="inputZip" placeholder="Zip">
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <textarea class="form-control rounded-1 formr1" id="exampleFormControlTextarea1" rows="10"  placeholder="Comment"></textarea>
+                        <a href="#"> <button class="Volunteerformbtn">Donate</button> </a>
+                     </div>
+                  </div>
+               </form>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Donate PopUp end-->
+
+<!--Volunteer PopUp Start-->
+   <div class="modal fade" id="VolunteerForm" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-size">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Volunteer Form</h4>
+        </div>
+        <div class="modal-body">
+         <!--Modal content-->
+          <h3 class="ptblack50b" >Support the movemenet! <br> Lend a hand today</h3>
+               <!-- Default form login -->
+               <form class="text-center border border-light " action="#!">
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6 tex-left">
+                        <input type="text" id="formGroupExampleInput" class="form-control form1 form1" placeholder="Name">
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6 ">
+                        <input type="text" id="validationCustom05" class="form-control form1" placeholder="Phone">
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <input type="email" class="form-control formr1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6 tex-left">
+                        <select class="form-control form1" id="exampleFormControlSelect1">
+                           <option selected>A</option>
+                           <option value="1">B</option>
+                           <option>C</option>
+                           <option>D</option>
+                           <option>E</option>
+                        </select>
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6 ">
+                        <input type="text" class="form-control form1" id="inputZip" placeholder="Zip">
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <input type="text" class="form-control formr1" id="inputZip" placeholder="Occupation">
+                        <input type="text" class="form-control formr1" id="inputZip" placeholder="Preffered Role">
+                        <textarea class="form-control rounded-1 formr1" id="exampleFormControlTextarea1" rows="10"  placeholder="Comment"></textarea>
+                        <a href="#"> <button class="Volunteerformbtn">Volunteer</button> </a>
+                     </div>
+                  </div>
+               </form>
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Volunteer PopUp End-->
+
+
+          </div>
+        </div>
+      </div> <!--End Page Header Section-->
+      
+
+      <!--About Us Section-->
+      <div class="container-fluid AboutUsSection">
+         <div class="row marginlr AboutUsSectionrow1">
+            <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+               <h5 class="ptregular20bnopacity text-left">ABOUT US</h5>
+               <h3 class="ptblack50b text-left">We dream of a world, where all men, gender and race stand equal.</h3>
+               <br>
+               <p class="ptregular20bnopacity text-left">Phasellus finibus enim nulla, quis ornare odio facilisis eu. Suspendisse ornare ante sit amet arcu semper, vel eleifend tortor egestas. Aenean luctus, lorem in hendrerit interdum, leo orci egestas diam, ac euismod massa est et turpis. Etiam auctor lectus vel neque convallis pharetra. Ut turpis eros, aliquet non ante id, interdum placerat erat. Curabitur sit amet eros vel orci venenatis hendrerit. Cras sagittis sagittis sagittis. </p>
+               <br>
+               <p class="ptregular20bnopacity text-left">Phasellus finibus enim nulla, quis ornare odio facilisis eu. Suspendisse ornare ante sit amet arcu semper, vel eleifend tortor egestas. Aenean luctus, lorem in hendrerit interdum, leo orci egestas diam, ac euismod massa est et turpis. Etiam auctor lectus vel neque convallis pharetra. Ut turpis eros, aliquet non ante id, interdum placerat erat. Curabitur sit amet eros vel orci venenatis hendrerit. Cras sagittis sagittis sagittis.  </p>
+               <div class=" AboutSectionvline">
+                  <img src="images/34.png" class="img-fluid" style="margin-left: 15%;">
+               </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"><hr></div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-left">
+                  <img src="images/11.png" class="img-fluid">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+         </div>
+       </div><!--End About Us Section-->
+
+       <!--Our Cause Section-->
+       <div class="container-fluid  OurCauseSection">
+         <div class="row marginlr marginb">
+            <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+               
+               
+                            <div class="Gallaryrow">
+  <div class="Gallarycolumn">
+    <img src="images/8.png" class="Gallaryimg" style="width:100%;" onclick="openModal();currentSlide(1)" class="Gallaryhover-shadow Gallarycursor">
+  </div>
+  <div class="Gallarycolumn">
+    <img src="images/8.png" class="Gallaryimg" style="width:100%" onclick="openModal();currentSlide(2)" class="Gallaryhover-shadow Gallarycursor">
+  </div>
+  
+</div>
+<br>
+<div class="Gallaryrow">
+  <div class="Gallarycolumn">
+    <img src="images/8.png" class="Gallaryimg" style="width:100%" onclick="openModal();currentSlide(1)" class="Gallaryhover-shadow Gallarycursor">
+  </div>
+  <div class="Gallarycolumn">
+    <img src="images/8.png" class="Gallaryimg" style="width:100%" onclick="openModal();currentSlide(2)" class="Gallaryhover-shadow Gallarycursor">
+  </div>
+  
+</div>
+
+
+<div id="myModal" class="Gallarymodal Gallaryimgmain">
+  <span class="close Gallaryclose Gallarycursor" onclick="closeModal()">&times;</span>
+  <div class="Gallarymodal-content">
+
+    <div class="GallarymySlides">
+      <div class="Gallarynumbertext">1 / 4</div>
+      <img src="images/8.png" class="Gallaryimg " style="width:100%">
+    </div>
+
+    <div class="GallarymySlides">
+      <div class="Gallarynumbertext">2 / 4</div>
+      <img src="images/8.png" class="Gallaryimg" style="width:100%">
+    </div>
+
+    <div class="GallarymySlides">
+      <div class="Gallarynumbertext">3 / 4</div>
+      <img src="images/8.png" class="Gallaryimg" style="width:100%">
+    </div>
+    
+    <div class="GallarymySlides">
+      <div class="Gallarynumbertext">4 / 4</div>
+      <img src="images/8.png" class="Gallaryimg" style="width:100%">
+    </div>
+    
+    <a class="Gallaryprev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="Gallarynext" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="Gallarycaption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="Gallarycolumn">
+      <img class="Gallarydemo Gallarycursor" src="images/8.png" class="Gallaryimg" style="width:100%;" onclick="currentSlide(1)" alt="The Movement">
+    </div>
+    <div class="Gallarycolumn">
+      <img class="Gallarydemo Gallarycursor" src="images/8.png" class="Gallaryimg" style="width:100%" onclick="currentSlide(2)" alt="The Movement">
+    </div>
+    <div class="Gallarycolumn">
+      <img class="Gallarydemo Gallarycursor" src="images/8.png" class="Gallaryimg" style="width:100%" onclick="currentSlide(3)" alt="The Movement">
+    </div>
+    <div class="Gallarycolumn">
+      <img class="Gallarydemo Gallarycursor" src="images/8.png" class="Gallaryimg" style="width:100%" onclick="currentSlide(4)" alt="The Movement">
+    </div>
+  </div>
+</div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-left">
+               <h5 class="ptregular20bnopacity">OUR MISSION</h5>
+               <h3 class="ptblack50b">Giving a voice to the voiceless, & leading the charge for equality.</h3>
+               <br>
+               <p class="ptregular20bnopacity ">Phasellus finibus enim nulla, quis ornare odio facilisis eu. Suspendisse ornare ante sit amet arcu semper, vel eleifend tortor egestas. Aenean luctus, lorem in hendrerit interdum, leo orci egestas diam, ac euismod massa est et turpis. Etiam auctor lectus vel neque convallis pharetra. Ut turpis eros, aliquet non ante id, interdum placerat erat. Curabitur sit amet eros vel orci venenatis hendrerit. Cras sagittis sagittis sagitti</p>
+               
+               <p class="ptregular20bnopacity">Phasellus finibus enim nulla, quis ornare odio facilisis eu. Suspendisse ornare ante sit amet arcu semper, vel eleifend tortor egestas. Aenean luctus, lorem in hendrerit interdum, leo orci egestas diam, ac euismod massa est et turpis. </p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+         </div>
+      </div><!--End Our Cause Section-->
+
+      <!--Our Team Section-->
+      <div class="container-fluid OurTeamSection">
+         <div class="row marginlr">
+            <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1 "></div>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 ">
+               <h2 class="ptblack50w text-left OurTeamSectionheading">Meet the team and Volunteers<br> behind the movement</h2>
+               <br>
+
+                     <div class="slider4 parent-box owl-carousel">
+                        
+                        <div class="box">
+                           <img src="images/t1.png" >
+                           <h2 class="ptbold30w slidername">Saheed Smith</h2>
+                           <p class="ptregular20w sliderstatus">Founder / Volunteer</p>
+                        </div>
+                        <div class="box">
+                           <img src="images/t22.png" >
+                           <h2 class="ptbold30w slidername">Jade Williams</h2>
+                           <p class="ptregular20w sliderstatus">Co - Founder / Volunteer</p>
+                        </div>
+                        <div class="box">
+                           <img src="images/t33.png" >
+                           <h2 class="ptbold30w slidername">Jennifer Johnson</h2>
+                           <p class="ptregular20w sliderstatus">Co - Founder / Volunteer</p>
+                        </div>
+                        <div class="box">
+                           <img src="images/t44.png" >
+                           <h2 class="ptbold30w slidername">Logan Miller</h2>
+                           <p class="ptregular20w sliderstatus">Co - Founder / Volunteer</p>
+                        </div>
+                        <div class="box">
+                           <img src="images/t1.png">
+                           <h2 class="ptbold30w slidername">Saheed Smith</h2>
+                           <p class="ptregular20w sliderstatus">Founder / Volunteer</p>
+                        </div>
+                        <div class="box">
+                           <img src="images/t22.png">
+                           <h2 class="ptbold30w slidername">Jade Williams</h2>
+                           <p class="ptregular20w sliderstatus">Co - Founder / Volunteer</p>
+                        </div>
+                        <div class="box">
+                           <img src="images/t33.png" >
+                           <h2 class="ptbold30w slidername">Jennifer Johnson</h2>
+                           <p class="ptregular20w sliderstatus">Co - Founder / Volunteer</p>
+                        </div>
+                        <div class="box">
+                           <img src="images/t44.png" >
+                           <h2 class="ptbold30w slidername">Logan Miller</h2>
+                           <p class="ptregular20w sliderstatus">Co - Founder / Volunteer</p>
+                        </div>
+                        <div class="box">
+                           <img src="images/t1.png" >
+                           <h2 class="ptbold30w slidername">Saheed Smith</h2>
+                           <p class="ptregular20w sliderstatus">Founder / Volunteer</p>
+                        </div>
+                        <div class="box">
+                           <img src="images/t22.png" >
+                           <h2 class="ptbold30w slidername">Jade Williams</h2>
+                           <p class="ptregular20w sliderstatus">Co - Founder / Volunteer</p>
+                        </div>
+                        <div class="box">
+                           <img src="images/t33.png" >
+                           <h2 class="ptbold30w slidername">Jennifer Johnson</h2>
+                           <p class="ptregular20w sliderstatus">Co - Founder / Volunteer</p>
+                        </div>
+                        <div class="box">
+                           <img src="images/t44.png" >
+                           <h2 class="ptbold30w slidername">Logan Miller</h2>
+                           <p class="ptregular20w sliderstatus">Co - Founder / Volunteer</p>
+                        </div>
+                     </div>
+              
+               
+               <hr class="style1 border-light">
+
+               <ul class="list-inline OurTeamSectioninline text-center">
+                  <li class="list-inline-item"><h2 class="ptblack65w">3000</h2>
+               <h3 class="ptregular30wopacity">Successful <br> Campaigns</h3></li>
+                  <li class="list-inline-item"><h2 class="ptblack65w">6000</h2>
+               <h6 class="ptregular30wopacity">Dedicated <br> Volunteers</h6></li>
+                  <li class="list-inline-item"><h2 class="ptblack65w">1500</h2>
+               <h6 class="ptregular30wopacity">Legal 
+                  <br> Advisors
+               </h6></li>
+                  <li class="list-inline-item"><h2 class="ptblack65w">1000</h2>
+               <h6 class="ptregular30wopacity">International <br> Awards</h6></li>
+               </ul>
+            </div>
+             <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1 "></div>
+         </div>
+      </div><!--End Our Team Section-->
+
+
+     <footer >
+            <!--Footer Section-->
+            <div class="container-fluid FooterSection ">
+               <div class="row">
+                   <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+                      <div class="row rounded marginlr text-center FooterSectionrow1 bg-white">
+                
+               <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 lendahandheading">
+                  <h3 class="ptblack50b ">Lend a hand, your voice or wallet</h3>
+               </div>
+               <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+               <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
+                  <a data-toggle="modal" data-target="#Donateform"><button class="footerbtn" >Donate &nbsp <img src="images/29.png" alt="" class="img-fluid"> </a>&nbsp  &nbsp<img src="images/32.png" class="img-fluid"><a data-toggle="modal" data-target="#VolunteerForm">&nbsp &nbsp &nbsp Lend a Hand &nbsp<img src="images/30.png" alt="" class="img-fluid"></button></a> 
+               </div>
+               <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                 <a href=""><button class="footerbtn2">Report Incident <img src="images/31.png" alt="" class="img-fluid"></button></a>
+               </div>
+            </div>  
+
+                    </div>
+                     <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+               </div>
+            
+            <div class="row marginlr">
+               <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+               <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 tex-left">
+                  <a href="#"><img src="images/flogo.png" alt="" ></a>
+                  <!--headin5_amrc--><br><br>
+                  <p class="mb10 ptregular20w" >No one is born hating another person because of the color of his skin, or his background, or his religion. People must learn to hate, and if they can learn to hate, they can be taught to love, for love comes more naturally to the human heart than its opposite.</p><br><br>
+                  <P class="ptregular16m text-left">Spread Love Today</P>
+               </div>
+               <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+               <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-left">
+                  <h4 class="headin5_amrc col_white_amrc pt2 ptregular30w ">Get in Touch</h4><br>
+                  <!--headin5_amrc-->
+                  <p class="mb10 ptregular16m">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p><br>
+                  <p class="ptbold16w">Phone:033xxxxxxxxx</p>
+                  <p class="ptbold16w ">Email:support@themovement.com</p>
+                  <p class="ptbold16w ">Report:report@themovement.com</p>
+               </div>
+               <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+               <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 text-center foot">
+                  <h4 class="headin5_amrc col_white_amrc pt2 ptregular30w ">Connect with Us</h4><br>
+                  <!--headin5_amrc-->
+                  <div class="row pwhite">
+                     <div class="col"><i class="fab fa-facebook"></i></div>
+                  </div>
+                  <div class="row pwhite">
+                     <div class="col"><i class="fab fa-twitter"></i></div>
+                  </div>
+                  <div class="row pwhite">
+                     <div class="col"><i class="fab fa-instagram"></i></div>
+                  </div>
+                  <div class="row pwhite">
+                     <div class="col"><i class="fab fa-youtube"></i></div>
+                  </div>
+                  <div class="row pwhite">
+                     <div class="col"><i class="fab fa-snapchat"></i></div>
+                  </div>
+               </div>
+               <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+            </div>
+            <div class="row marginlr FooterSectionrow2">
+               <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+               <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 text-left">
+                  <ul class="list-inline ">
+                     <li class="list-inline-item"><a href="#" class="ptbold14w">About Us</a></li>
+                     <li class="list-inline-item"><a href="#"  class="ptbold14w">The Cause</a></li>
+                     <li class="list-inline-item"><a href="#"  class="ptbold14w">Report an incident</a></li>
+                     <li class="list-inline-item"><a href="#"  class="ptbold14w">Donate</a></li>
+                     <li class="list-inline-item"><a href="#"  class="ptbold14w">Volunteer</a></li>
+                  </ul>
+               </div>
+               <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
+                  <p class="pt14w">&copy;Copyright &nbsp <strong class="footmenu pt14w">Greloft</strong> &nbsp  2020 All Rights Reserved</p>
+               </div>
+               <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+            </div>
+         </div><!--End Footer Section-->
+      </footer>
+       
+      <!--Javascript external files-->
+      <script src="https://kit.fontawesome.com/20e0519d44.js" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/owl.carousel.js"></script>
+      <script src="assets/js/custom.js"></script>
+      
+   </body>
+</html>

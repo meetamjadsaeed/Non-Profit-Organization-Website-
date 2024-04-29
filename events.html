@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>The Movement</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+      <link rel="icon" href="images/favicon.png" type="image" sizes="16x16">
+      <link rel="stylesheet" href="assets/css/fonts/fonts.css">
+      <link rel="stylesheet" href="assets/css/owl.carousel.css">
+      <link rel="stylesheet" href="assets/css/main.css"/>
+      <link rel="stylesheet" href="assets/css/responsive.css" />
+   </head>
+   <body>
+
+
+<!--Main Navigation Start-->
+     <nav class="navbar navbar-expand-lg navbar-light fixed-top mainnav">
+      
+  <a class="navbar-brand" href="#"><img src="images/flogo.png" ></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+           <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#"><h4 class="text-secondary">Our Cause<h4></a>
+          <a class="dropdown-item" href="About.html"><h4 class="text-secondary">Our Team<h4></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="donations.html">Donations</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="events.html">Events</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="news.html">News & Updates</a>
+      </li>
+    </ul>
+
+   <a data-toggle="modal" data-target="#Donateform"><button class="donatebtnh" >Donate &nbsp <img src="images/27.png" alt="" class="img-fluid"> &nbsp  &nbsp</a><img src="images/vl.png" class="img-fluid"><a data-toggle="modal" data-target="#VolunteerForm">&nbsp &nbsp &nbsp Lend a Hand &nbsp<img src="images/28.png" alt="" class="img-fluid"></button></a>&nbsp &nbsp &nbsp &nbsp
+   <a href=""><button id="reporth">Report Incident &nbsp <img src="images/33.png" alt="" class="img-fluid"> &nbsp</button></a>
+  </div>
+
+</nav>
+<!--Main Navigation-->
+
+<!--Page Header Section-->
+      <div class="container-fluid PageHeaderSection3">
+        <div class="row marginlr PageHeaderSectionrow3">
+         <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+          <div class="col-xs-12 col-sm-12 col-md-11 col-lg-11 text-left">
+            <h2 class="ptblack50w">Events</h2>
+            <p class="ptregular20w">HOME/Events</p>
+
+             <!--Donate PopUp Start-->
+  <div class="modal fade" id="Donateform" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-size">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Donate Form</h4>
+        </div>
+        <div class="modal-body">
+          <!--Modal content-->
+
+
+             <h3 class="ptblack50b" >Please fill out the form below <br>to donate to out cause.</h3>
+             <form class="text-center border border-light " action="#!">
+                  <div class="row">
+                      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                          
+                          <div class="input-group">
+  <input type="text" class="form-control border border-secondary p-4 round" aria-label="Dollar amount (with dot and two decimal places)" placeholder="Donate">
+  <div class="input-group-append">
+    <span class="input-group-text bg-dark text-white">5 $</span>
+  </div>
+</div>
+                        </div>
+                     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6 tex-left">
+                        
+
+                        <input type="text" id="formGroupExampleInput" class="form-control form1" placeholder="Name">
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6 ">
+                        <input type="text" id="validationCustom05" class="form-control form1" placeholder="Phone">
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <input type="email" class="form-control formr1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6 tex-left">
+                        <select class="form-control form1" id="exampleFormControlSelect1">
+                           <option selected>A</option>
+                           <option value="1">B</option>
+                           <option>C</option>
+                           <option>D</option>
+                           <option>E</option>
+                        </select>
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6 ">
+                        <input type="text" class="form-control form1" id="inputZip" placeholder="Zip">
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <textarea class="form-control rounded-1 formr1" id="exampleFormControlTextarea1" rows="10"  placeholder="Comment"></textarea>
+                        <a href="#"> <button class="Volunteerformbtn">Donate</button> </a>
+                     </div>
+                  </div>
+               </form>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Donate PopUp end-->
+
+            <!--Volunteer PopUp Start-->
+   <div class="modal fade" id="VolunteerForm" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-size">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Volunteer Form</h4>
+        </div>
+        <div class="modal-body">
+         <!--Modal content-->
+          <h3 class="ptblack50b" >Support the movemenet! <br> Lend a hand today</h3>
+               <!-- Default form login -->
+               <form class="text-center border border-light " action="#!">
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6 tex-left">
+                        <input type="text" id="formGroupExampleInput" class="form-control form1 form1" placeholder="Name">
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6 ">
+                        <input type="text" id="validationCustom05" class="form-control form1" placeholder="Phone">
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <input type="email" class="form-control formr1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6 tex-left">
+                        <select class="form-control form1" id="exampleFormControlSelect1">
+                           <option selected>A</option>
+                           <option value="1">B</option>
+                           <option>C</option>
+                           <option>D</option>
+                           <option>E</option>
+                        </select>
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6 ">
+                        <input type="text" class="form-control form1" id="inputZip" placeholder="Zip">
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <input type="text" class="form-control formr1" id="inputZip" placeholder="Occupation">
+                        <input type="text" class="form-control formr1" id="inputZip" placeholder="Preffered Role">
+                        <textarea class="form-control rounded-1 formr1" id="exampleFormControlTextarea1" rows="10"  placeholder="Comment"></textarea>
+                        <a href="#"> <button class="Volunteerformbtn">Volunteer</button> </a>
+                     </div>
+                  </div>
+               </form>
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Volunteer PopUp End-->
+
+
+<!--EventDetails PopUp Start-->
+   <div class="modal fade" id="EventDetails" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-size" >
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Volunteer Form</h4>
+        </div>
+        <div class="modal-body">
+          <!--Event Single Section-->
+      
+         <div class="row margint">
+            <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+               <p class="ptregular20bnopacity">Event Awareness</p>
+               <h3 class="ptblack50b">We march on the <br>White house</h3>
+               <hr class="style1">
+               <div class="row text-left">
+                  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                     <p class="ptblack15b">Date & Time</p>
+                     <p class="ptbold20b">Saturday(6)-Monady(8)</p>
+                     <p class="ptbold20b">April,2020/12 PM-6PM</p>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"></div>
+                  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                     <p class="ptblack15b">Venue</p>
+                     <p class="ptbold20b">145,That Place,Off That</p>
+                     <p class="ptbold20b">Road,Rock City, LA</p>
+                  </div>
+               </div>
+               <hr class="style1">
+               <p class="ptregular20bnopacity text-left">Phasellus finibus enim nulla, quis ornare odio facilisis eu. Suspendisse ornare ante sit amet arcu semper, vel eleifend tortor egestas. Aenean luctus, lorem in hendrerit interdum, leo orci egestas diam, ac euismod massa est et turpis. Etiam auctor lectus vel neque convallis pharetra. Ut turpis eros, aliquet non ante id, interdum placerat erat. Curabitur sit amet eros vel orci venenatis hendrerit. Cras sagittis sagittis sagittis. </p>
+               <br>
+               <p class="ptregular20bnopacity text-left">
+Phasellus finibus enim nulla, quis ornare odio facilisis eu. Suspendisse ornare ante sit amet arcu semper, vel eleifend tortor egestas. Aenean luctus, lorem in hendrerit interdum, leo orci egestas diam, ac euismod massa est et turpis. Etiam auctor lectus vel neque convallis pharetra. Ut turpis eros, aliquet non ante id, interdum placerat erat. Curabitur sit amet eros vel orci venenatis hendrerit. Cras sagittis sagittis sagittis.  </p>
+               <div class="row"><br><br>
+                  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-6 text-left">
+                     <a href=""><button class="eventsbtn" >Lend a Hand  &nbsp <img src="images/28.png" alt="" > &nbsp  &nbsp<img src="images/vl.png">&nbsp &nbsp &nbsp Share &nbsp<img src="images/20.png" alt="" ></button></a>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-right">
+                     <p class="ptblack20b">26.2K</p>
+                     <p class="ptbold15b">Volunteers</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6 text-right">
+               <img src="images/36.png" alt="" class="img-fluid" style="width: 631px; height: 784px">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+         </div><br><br><br>
+         <div class="row marginlr">
+            <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <h5 class="ptregular20bnopacity text-left">EVENT SPONSORS</h5>
+               <hr class="style1">
+              <img src="images/event.png">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+         </div>
+     <!--End Event Single Section-->
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--EventDetails PopUp End-->
+
+
+          </div>
+        </div>
+      </div> <!--End Page Header Section-->
+
+      <!--Events Section2-->
+      <div class="container-fluid EventsSection2 EventsSection2row">
+         <div class="row ">
+           <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+ <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+    
+
+<!--Table Section Start-->
+<div class="table-responsive">
+  <table class="table">
+     <tbody>
+        <tr>
+           <th scope="row">
+              <h3 class="ptblack40b">March on Washington</h3>
+                           <p class="ptregular20b">Saturday (6) - Monday (8), April, 2020</p>
+           </th>
+              <td>
+                 <h5 class="ptblack20b">24.6K</h5>
+                           <p class="ptbold15b">Volunteers</p>
+              </td>
+              <td>
+                 <div class="v2t"></div>
+              </td>
+              <td>
+                   <a data-toggle="modal" data-target="#EventDetails"><h5 class="ptblack20b seedetails">See <br> Details</h5></a>
+              </td>
+              <td>
+                 <a data-toggle="modal" data-target="#VolunteerForm"><button class="eventsbtn" >Lend a Hand  &nbsp <img src="images/28.png" alt="" > &nbsp  &nbsp</a><img src="images/vl.png"><a>&nbsp &nbsp &nbsp Share &nbsp<img src="images/20.png" alt="" ></button></a>
+              </td>
+        </tr>
+        <tr>
+           <th scope="row">
+              <h3 class="ptblack40b">March on Washington</h3>
+                           <p class="ptregular20b">Saturday (6) - Monday (8), April, 2020</p>
+           </th>
+              <td>
+                 <h5 class="ptblack20b">24.6K</h5>
+                           <p class="ptbold15b">Volunteers</p>
+              </td>
+              <td>
+                 <div class="v2t"></div>
+              </td>
+              <td>
+                   <a data-toggle="modal" data-target="#EventDetails"><h5 class="ptblack20b seedetails">See <br> Details</h5></a>
+              </td>
+              <td>
+                  <a data-toggle="modal" data-target="#VolunteerForm"><button class="eventsbtn" >Lend a Hand  &nbsp <img src="images/28.png" alt="" > &nbsp  &nbsp</a><img src="images/vl.png"><a>&nbsp &nbsp &nbsp Share &nbsp<img src="images/20.png" alt="" ></button></a>
+              </td>
+        </tr>
+        <tr>
+           <th scope="row">
+              <h3 class="ptblack40b">March on Washington</h3>
+                           <p class="ptregular20b">Saturday (6) - Monday (8), April, 2020</p>
+           </th>
+              <td>
+                 <h5 class="ptblack20b">24.6K</h5>
+                           <p class="ptbold15b">Volunteers</p>
+              </td>
+              <td>
+                 <div class="v2t"></div>
+              </td>
+              <td>
+                  <a data-toggle="modal" data-target="#EventDetails"><h5 class="ptblack20b seedetails">See <br> Details</h5></a>
+              </td>
+              <td>
+                 <a data-toggle="modal" data-target="#VolunteerForm"><button class="eventsbtn" >Lend a Hand  &nbsp <img src="images/28.png" alt="" > &nbsp  &nbsp</a><img src="images/vl.png"><a>&nbsp &nbsp &nbsp Share &nbsp<img src="images/20.png" alt="" ></button></a>
+              </td>
+        </tr>
+
+          <tr>
+           <th scope="row">
+              <h3 class="ptblack40b">Breaking down the Norm</h3>
+                           <p class="ptregular20b">Saturday (6) - Monday (8), April, 2020</p>
+           </th>
+              <td>
+                 <h5 class="ptblack20b">24.6K</h5>
+                           <p class="ptbold15b">Volunteers</p>
+              </td>
+              <td>
+                 <div class="v2t"></div>
+              </td>
+              <td>
+                   <a data-toggle="modal" data-target="#EventDetails"><h5 class="ptblack20b seedetails">See <br> Details</h5></a>
+              </td>
+              <td>
+                <a data-toggle="modal" data-target="#VolunteerForm"><button class="eventsbtn" >Lend a Hand  &nbsp <img src="images/28.png" alt="" > &nbsp  &nbsp</a><img src="images/vl.png"><a>&nbsp &nbsp &nbsp Share &nbsp<img src="images/20.png" alt="" ></button></a>
+              </td>
+        </tr>
+
+         <tr>
+           <th scope="row">
+              <h3 class="ptblack40b">We march on the White House</h3>
+                           <p class="ptregular20b">Saturday (6) - Monday (8), April, 2020</p>
+           </th>
+              <td>
+                 <h5 class="ptblack20b">24.6K</h5>
+                           <p class="ptbold15b">Volunteers</p>
+              </td>
+              <td>
+                 <div class="v2t"></div>
+              </td>
+              <td>
+                  <a data-toggle="modal" data-target="#EventDetails"><h5 class="ptblack20b seedetails">See <br> Details</h5></a>
+              </td>
+              <td>
+                  <a data-toggle="modal" data-target="#VolunteerForm"><button class="eventsbtn" >Lend a Hand  &nbsp <img src="images/28.png" alt="" > &nbsp  &nbsp</a><img src="images/vl.png"><a>&nbsp &nbsp &nbsp Share &nbsp<img src="images/20.png" alt="" ></button></a>
+              </td>
+        </tr>
+
+         <tr>
+           <th scope="row">
+              <h3 class="ptblack40b">We march on the White House</h3>
+                           <p class="ptregular20b">Saturday (6) - Monday (8), April, 2020</p>
+           </th>
+              <td>
+                 <h5 class="ptblack20b">24.6K</h5>
+                           <p class="ptbold15b">Volunteers</p>
+              </td>
+              <td>
+                 <div class="v2t"></div>
+              </td>
+              <td>
+                  <a data-toggle="modal" data-target="#EventDetails"><h5 class="ptblack20b seedetails">See <br> Details</h5></a>
+              </td>
+              <td>
+                 <a data-toggle="modal" data-target="#VolunteerForm"><button class="eventsbtn" >Lend a Hand  &nbsp <img src="images/28.png" alt="" > &nbsp  &nbsp</a><img src="images/vl.png"><a>&nbsp &nbsp &nbsp Share &nbsp<img src="images/20.png" alt="" ></button></a>
+              </td>
+        </tr>
+
+
+        <tr>
+                        <th scope="row"></th>
+                        <td> </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                     </tr>
+     </tbody>
+  </table>
+
+</div>
+<!--Table section End-->
+
+ </div>
+
+<div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+</div>
+         <div class="row marginlr text-center">
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 "></div>
+            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 "><button id="eventsb">See More</button></div>
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 "></div>
+            
+         </div>
+      </div><!--End Events Section2-->
+
+
+      <footer >
+            <!--Footer Section-->
+            <div class="container-fluid FooterSection ">
+            <div class="row marginlr ">
+               <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+               <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 tex-left margint">
+                  <a href="#"><img src="images/flogo.png" alt="" ></a>
+                  <!--headin5_amrc--><br><br>
+                  <p class="mb10 ptregular20w" >No one is born hating another person because of the color of his skin, or his background, or his religion. People must learn to hate, and if they can learn to hate, they can be taught to love, for love comes more naturally to the human heart than its opposite.</p><br><br>
+                  <P class="ptregular16m text-left">Spread Love Today</P>
+               </div>
+               <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+               <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-left margint">
+                  <h4 class="headin5_amrc col_white_amrc pt2 ptregular30w ">Get in Touch</h4><br>
+                  <!--headin5_amrc-->
+                  <p class="mb10 ptregular16m">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p><br>
+                  <p class="ptbold16w">Phone:033xxxxxxxxx</p>
+                  <p class="ptbold16w ">Email:support@themovement.com</p>
+                  <p class="ptbold16w ">Report:report@themovement.com</p>
+               </div>
+               <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+               <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 text-center foot margint">
+                  <h4 class="headin5_amrc col_white_amrc pt2 ptregular30w ">Connect with Us</h4><br>
+                  <!--headin5_amrc-->
+                  <div class="row pwhite">
+                     <div class="col"><i class="fab fa-facebook"></i></div>
+                  </div>
+                  <div class="row pwhite">
+                     <div class="col"><i class="fab fa-twitter"></i></div>
+                  </div>
+                  <div class="row pwhite">
+                     <div class="col"><i class="fab fa-instagram"></i></div>
+                  </div>
+                  <div class="row pwhite">
+                     <div class="col"><i class="fab fa-youtube"></i></div>
+                  </div>
+                  <div class="row pwhite">
+                     <div class="col"><i class="fab fa-snapchat"></i></div>
+                  </div>
+               </div>
+               <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+            </div>
+            <div class="row marginlr FooterSectionrow2">
+               <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+               <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 text-left">
+                  <ul class="list-inline ">
+                     <li class="list-inline-item"><a href="#" class="ptbold14w">About Us</a></li>
+                     <li class="list-inline-item"><a href="#"  class="ptbold14w">The Cause</a></li>
+                     <li class="list-inline-item"><a href="#"  class="ptbold14w">Report an incident</a></li>
+                     <li class="list-inline-item"><a href="#"  class="ptbold14w">Donate</a></li>
+                     <li class="list-inline-item"><a href="#"  class="ptbold14w">Volunteer</a></li>
+                  </ul>
+               </div>
+               <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
+                  <p class="pt14w">&copy;Copyright &nbsp <strong class="footmenu pt14w">Greloft</strong> &nbsp  2020 All Rights Reserved</p>
+               </div>
+               <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+            </div>
+         </div><!--End Footer Section-->
+      </footer>
+
+      <!--Javascript external files-->
+      <script src="https://kit.fontawesome.com/20e0519d44.js" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/owl.carousel.js"></script>
+      <script src="assets/js/custom.js"></script>
+   </body>
+</html>

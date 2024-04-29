@@ -1,0 +1,237 @@
+
+
+<!DOCTYPE html>
+<html lang="en" >
+
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://kit.fontawesome.com/20e0519d44.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+<style >
+ 
+/* Carousel */
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+  
+}
+#quote-carousel .carousel-control {
+    background: none;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 270px;
+}
+#quote-carousel .carousel-control.left {
+    left: 10%;
+
+}
+#quote-carousel .carousel-control.right {
+    right: 10%;
+}
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+   
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 71px;
+    height: 71px;
+    border-radius: 100px;
+   
+    opacity: 1;
+    overflow: hidden;
+}
+.carousel-inner {
+    min-height: 250px;
+    height: auto;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+  
+}
+
+.item blockquote p:after {
+    content: "\f10e";
+    font-family: 'Fontawesome';
+    float: right;
+    
+}
+
+
+
+.fa-arrow-right,.fa-arrow-left{
+color: #000000;
+}
+
+.quoteborder{
+  border-radius: 15px 15px 15px 15px;
+  border: 1px solid #141414;
+}
+.quotedesc{
+    font-size: 10px;
+    color:#141414;
+    line-height:normal;
+    font-family: 'Lato',sans-serif;
+    font-style: italic;
+}
+.qname{
+font-size: 10px;
+    color: #141414;
+    line-height:normal;
+    font-family: 'Lato',sans-serif;
+    font-weight:700;
+}
+.identity{
+font-size:  8px;
+    color: #141414;
+    line-height:normal;
+    font-family: 'Lato',sans-serif;
+    font-weight:700;
+    opacity: 60%;
+
+}
+
+</style>
+   </head>
+<body>
+
+
+       
+                    <div class="col-md-12" data-wow-delay="0.2s">
+                        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                            <!-- Bottom Carousel Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive img-fluid" src="images/t3.png" alt="">
+
+                                </li>
+
+                                <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive img-fluid" src="images/t4.png" alt="">
+                                </li>
+                                <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive img-fluid" src="images/t22.png" alt="">
+                                </li>
+
+                                <li data-target="#quote-carousel" data-slide-to="3"><img class="img-responsive img-fluid" src="images/t3.png" alt="">
+                                </li>
+
+                                <li data-target="#quote-carousel" data-slide-to="4"><img class="img-responsive img-fluid" src="images/t22.png" alt="">
+                                </li>
+
+                            </ol>
+
+                            <!-- Carousel Slides / Quotes -->
+                            <div class="carousel-inner text-center">
+
+                                <!-- Quote 1 -->
+                                <div class="item active ">
+                                    <blockquote>
+                                        <div class="row ">
+                                            <div class="col-sm-8 col-sm-offset-2  quoteborder">
+                                                <i class="fas fa-caret-down"></i>
+                                                <p class="quotedesc">Phasellus finibus enim nulla, quis ornare odio facilisis eu. Suspendisse ornare ante sit amet arcu semper, vel eleifend tortor egestas. Aenean luctus, lorem in hendrerit interdum, leo orci egestas diam, ac euismod massa est et turpis</p>
+                                                <h2 class="qname">Juliet Hammond</h2>
+                                                <h3 class="identity">Concerned Citizen</h3>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                <!-- Quote 2 -->
+                                <div class="item">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-sm-8 col-sm-offset-2 quoteborder">
+                                                  <i class="fas fa-caret-down"></i>
+                                               <p class="quotedesc">Phasellus finibus enim nulla, quis ornare odio facilisis eu. Suspendisse ornare ante sit amet arcu semper, vel eleifend tortor egestas. Aenean luctus, lorem in hendrerit interdum, leo orci egestas diam, ac euismod massa est et turpis</p>
+                                                <h2 class="qname">Juliet Hammond</h2>
+                                                <h3 class="identity">Concerned Citizen</h3>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                <!-- Quote 3 -->
+                                <div class="item">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-sm-8 col-sm-offset-2 quoteborder">
+                                              <i class="fas fa-caret-down"></i>
+                                               <p class="quotedesc">Phasellus finibus enim nulla, quis ornare odio facilisis eu. Suspendisse ornare ante sit amet arcu semper, vel eleifend tortor egestas. Aenean luctus, lorem in hendrerit interdum, leo orci egestas diam, ac euismod massa est et turpis</p>
+                                                <h2 class="qname">Juliet Hammond</h2>
+                                                <h3 class="identity">Concerned Citizen</h3>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                <!-- Quote 4 -->
+                                <div class="item">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-sm-8 col-sm-offset-2 quoteborder">
+                                                <i class="fas fa-caret-down"></i>
+                                                <p class="quotedesc">Phasellus finibus enim nulla, quis ornare odio facilisis eu. Suspendisse ornare ante sit amet arcu semper, vel eleifend tortor egestas. Aenean luctus, lorem in hendrerit interdum, leo orci egestas diam, ac euismod massa est et turpis</p>
+                                                <h2 class="qname">Juliet Hammond</h2>
+                                                <h3 class="identity">Concerned Citizen</h3>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                <!-- Quote 5 -->
+                                <div class="item">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-sm-8 col-sm-offset-2 quoteborder">
+                                                <i class="fas fa-caret-down"></i>
+                                                <p class="quotedesc">Phasellus finibus enim nulla, quis ornare odio facilisis eu. Suspendisse ornare ante sit amet arcu semper, vel eleifend tortor egestas. Aenean luctus, lorem in hendrerit interdum, leo orci egestas diam, ac euismod massa est et turpis</p>
+                                                <h2 class="qname">Juliet Hammond</h2>
+                                                <h3 class="identity">Concerned Citizen</h3>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+
+                            <!-- Carousel Buttons Next/Prev -->
+                            <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fas fa-arrow-left"></i></a>
+                            <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+</div>
+
+
+
+
+
+</body>
+
+ 
+
+
+
+
+</html>
